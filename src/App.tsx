@@ -9,6 +9,8 @@ import { Testimonials } from './components/Testimonials';
 import { FAQ } from './components/FAQ';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { ClientsCarousel } from './components/ClientsCarousel';
+
 export function App() {
   useEffect(() => {
     document.documentElement.style.scrollBehavior = 'smooth';
@@ -16,18 +18,25 @@ export function App() {
       document.documentElement.style.scrollBehavior = '';
     };
   }, []);
-  return <div className="bg-white text-black w-full overflow-hidden">
+
+  return (
+    <div className="bg-white text-black w-full overflow-hidden">
       <Navbar />
       <main>
         <Hero />
         <Services />
         <About />
         <Process />
+
+        {/* ===== Carrossel de Clientes ===== */}
+        <ClientsCarousel />
+
         <Portfolio />
         <Testimonials />
         <FAQ />
         <Contact />
       </main>
       <Footer />
-    </div>;
+    </div>
+  );
 }
