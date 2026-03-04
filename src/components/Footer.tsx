@@ -64,7 +64,7 @@ export const Footer = () => {
       <div className="bg-black text-white py-6">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm opacity-70">
-            © {new Date().getFullYear()} RD Marketing - Curitiba, PR. Todos os
+            © {new Date().getFullYear()} RD Marketing - Foz do Iguaçu, PR. Todos os
             direitos reservados.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
