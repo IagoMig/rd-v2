@@ -24,7 +24,7 @@ export const About = () => {
           <div className="animate-fade-in-right">
             <h3 className="text-3xl font-bold mb-6">Nossa História</h3>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              Fundada em 2010 em Curitiba, a RD cresceu de uma pequena equipe de
+              Fundada em 2010 em Foz do Iguaçu, a RD cresceu de uma pequena equipe de
               profissionais de marketing apaixonados para uma agência de serviço
               completo com expertise em todos os canais digitais.
             </p>

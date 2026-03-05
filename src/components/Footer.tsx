@@ -16,7 +16,7 @@ export const Footer = () => {
               <span className="text-black">D</span>
             </div>
             <p className="mb-6 opacity-90">
-              Agência de marketing em Curitiba focada em gerar resultados
+              Agência de marketing em Foz do Iguaçu - PR focada em gerar resultados
               através da criatividade estratégica.
             </p>
             <button onClick={scrollToTop} className="flex items-center text-sm font-medium hover:text-black transition-all hover:scale-105">
